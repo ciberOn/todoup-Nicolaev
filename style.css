@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    background: radial-gradient(rgb(39, 59, 126),rgb(0, 255, 123));
+    height: 99vh;
+}
+.main_container{
+    margin: 0 auto;
+    border: 2px solid whitesmoke;
+    width: 810px;
+    border-radius: 10px;
+    margin-top: 40px;
+}
+.ta_container{
+    margin: 0;
+    width: 300px;
+    text-align: center;
+}
+
+input{
+    width: 290px;
+    background: none;text-align: center;
+    border: none;
+    color: oldlace;
+}
+.text{
+    border: 1px dashed rgb(231, 238, 83) ;
+    padding: 5px 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    color: azure;
+}
+.btn_submit{
+    padding: 5 20px;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+.hover_effect:hover{
+    border: solid teal;
+}
